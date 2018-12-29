@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM Suite">
+  <test thread-count="5" name="OrangeHRM Test">
+    <classes>
+      <class name="com.syntax.orangehrm.testscripts.LoginPageTest"/>
+      <class name="com.syntax.orangehrm.testscripts.AddEmployeeTest"/>
+      <class name="com.syntax.orangehrm.testscripts.TimePageTest"/>
+    </classes>
+  </test> 
+</suite> 
